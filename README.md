@@ -36,7 +36,7 @@ I first dropped the identification columns (EIN and NAME) as I do not need them 
 ![Original_model](https://github.com/MeredithTracy/Neural_Network_Charity_Analysis/blob/main/Images/Original_model.png)
 
 
-**My first attempt of optimization consisted of: **
+**My first attempt of optimization consisted of:**
 - Adding the ASK_AMT column to our binning list before encoding our dataset.
 - 2 hidden layers
     - relu, 80 neurons
@@ -48,7 +48,7 @@ I added a new binning column to try and focus the model a bit better. The ASK_AM
 ![Attempt1](https://github.com/MeredithTracy/Neural_Network_Charity_Analysis/blob/main/Images/Attempt1.png)
 
 
-**My second attempt of optimization consisted of: **
+**My second attempt of optimization consisted of:**
 - binned columns: APPLICATION_TYPE, CLASSIFICATION, ASK_AMT
 - 3 hidden layers
     - relu, 100 neurons
@@ -61,7 +61,7 @@ For my second attempt, I kept my new binned column and added a new hidden layer 
 ![Attempt2](https://github.com/MeredithTracy/Neural_Network_Charity_Analysis/blob/main/Images/Attempt2.png)
 
 
-**My third attempt of optimization consisted of: **
+**My third attempt of optimization consisted of:**
 - binned columns: APPLICATION_TYPE, CLASSIFICATION, ASK_AMT
 - 2 hidden layers
     - relu, 100 neurons
@@ -73,7 +73,7 @@ For my third attempt, I kept the binned columns and returned to two hidden layer
 ![Attempt3](https://github.com/MeredithTracy/Neural_Network_Charity_Analysis/blob/main/Images/Attempt3.png)
 
 
-**My fourth attempt of optimization consisted of: **
+**My fourth attempt of optimization consisted of:**
 - binned columns: APPLICATION_TYPE, CLASSIFICATION, ASK_AMT
 - 4 hidden layers
     - relu, 100 neurons
